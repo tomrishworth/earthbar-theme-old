@@ -3303,7 +3303,9 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
   @include flex-wrap(wrap);
   @include align-items(flex-end);
   width: auto;
-  padding-top: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ECECEC;
 }
 
 .product-form--payment-button-no-variants {
@@ -3341,7 +3343,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .product-form__item--payment-button {
-  @include flex-basis(100%);
+  // @include flex-basis(100%);
 
   .product-single--small-image &,
   .product-single--full-image & {
@@ -3375,11 +3377,11 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .product-form__cart-submit {
-  display: block;
-  width: 100%;
+  // display: block;
+  // width: 100%;
   line-height: 1.4;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
   white-space: normal;
   margin-top: 0;
   min-height: 44px;
