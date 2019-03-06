@@ -73,7 +73,7 @@
             </div>
           {% endif %}
           {% if is_filter_by_available == false and section.settings.sort_enable == false %}
-            <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
+            {% comment %} <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span> {% endcomment %}
           {% endif %}
         </div>
       </div>
